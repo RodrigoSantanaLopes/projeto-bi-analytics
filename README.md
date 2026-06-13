@@ -80,7 +80,7 @@ GitHub
 
 Documentação e tomada de decisão
 
-![Arquitetura da solução](documentacao/arquitetura_solucao.png)
+<img width="729" height="932" alt="image" src="https://github.com/user-attachments/assets/7393db21-1859-404a-abeb-8be08107e5e8" />
 
 ## 6. Base de dados
 
