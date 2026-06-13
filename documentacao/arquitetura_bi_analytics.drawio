@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" modified="2026-06-13T00:00:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="arquitetura-bi" name="Arquitetura BI e Analytics">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="titulo" value="Arquitetura da Solução de BI e Analytics" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="250" y="20" width="670" height="50" as="geometry"/></mxCell>
+        <mxCell id="python" value="Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B73C5;strokeColor=#1F4E8C;fontColor=#FFFFFF;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="430" y="90" width="310" height="60" as="geometry"/></mxCell>
+        <mxCell id="geracao" value="Geração da base fictícia de vendas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE9F8;strokeColor=#3B73C5;fontSize=16;" vertex="1" parent="1"><mxGeometry x="430" y="180" width="310" height="65" as="geometry"/></mxCell>
+        <mxCell id="limpeza" value="Limpeza, organização e processamento dos dados" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE9F8;strokeColor=#3B73C5;fontSize=16;" vertex="1" parent="1"><mxGeometry x="430" y="275" width="310" height="70" as="geometry"/></mxCell>
+        <mxCell id="csv" value="Criação dos arquivos CSV" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE9F8;strokeColor=#3B73C5;fontSize=16;" vertex="1" parent="1"><mxGeometry x="430" y="375" width="310" height="65" as="geometry"/></mxCell>
+        <mxCell id="rotulo_bi" value="BI" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#B8860B;" vertex="1" parent="1"><mxGeometry x="160" y="470" width="80" height="30" as="geometry"/></mxCell>
+        <mxCell id="powerbi" value="Power BI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F6D365;strokeColor=#D39E00;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="120" y="510" width="300" height="65" as="geometry"/></mxCell>
+        <mxCell id="metricas" value="Criação das métricas e dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3C4;strokeColor=#D39E00;fontSize=16;" vertex="1" parent="1"><mxGeometry x="120" y="605" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="dashboard" value="Dashboard e indicadores de negócio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3C4;strokeColor=#D39E00;fontSize=16;" vertex="1" parent="1"><mxGeometry x="120" y="705" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="rotulo_ml" value="Analytics / ML" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#2E7D32;" vertex="1" parent="1"><mxGeometry x="815" y="470" width="130" height="30" as="geometry"/></mxCell>
+        <mxCell id="colab" value="Google Colab" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CDECCF;strokeColor=#4CAF50;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="750" y="510" width="300" height="65" as="geometry"/></mxCell>
+        <mxCell id="base_pred" value="Base preditiva" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F5E6;strokeColor=#4CAF50;fontSize=16;" vertex="1" parent="1"><mxGeometry x="750" y="605" width="300" height="60" as="geometry"/></mxCell>
+        <mxCell id="modelo" value="Modelo de Regressão Logística" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F5E6;strokeColor=#4CAF50;fontSize=16;" vertex="1" parent="1"><mxGeometry x="750" y="695" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="previsao" value="Previsão do risco de não conclusão" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5F5E6;strokeColor=#4CAF50;fontSize=16;" vertex="1" parent="1"><mxGeometry x="750" y="795" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="github" value="GitHub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E0E0;strokeColor=#666666;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="430" y="930" width="310" height="65" as="geometry"/></mxCell>
+        <mxCell id="documentacao" value="Códigos, arquivos e documentação" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#888888;fontSize=16;" vertex="1" parent="1"><mxGeometry x="430" y="1025" width="310" height="70" as="geometry"/></mxCell>
+        <mxCell id="decisao" value="Tomada de decisão" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=2;fontSize=20;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="410" y="1135" width="350" height="75" as="geometry"/></mxCell>
+        <mxCell id="legenda" value="Figura 1 – Arquitetura da solução de BI e Analytics" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=2;" vertex="1" parent="1"><mxGeometry x="320" y="1240" width="530" height="30" as="geometry"/></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="python" target="geracao"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="geracao" target="limpeza"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="limpeza" target="csv"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="csv" target="powerbi"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="csv" target="colab"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="powerbi" target="metricas"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="metricas" target="dashboard"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="colab" target="base_pred"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="base_pred" target="modelo"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="modelo" target="previsao"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="dashboard" target="github"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="previsao" target="github"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="github" target="documentacao"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="documentacao" target="decisao"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
